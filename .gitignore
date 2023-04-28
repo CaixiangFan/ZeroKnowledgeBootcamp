@@ -1,1 +1,3 @@
 .DS_Store
+cairo_venv
+.env

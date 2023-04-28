@@ -41,9 +41,9 @@ func constructor{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr
 // Storage
 //#########################################################################################
 @storage_var
-func admin() -> (admin: felt){}
+func admin() -> (res: felt){}
 @storage_var
-func level_granted() -> (level_granted: felt) {}
+func level_granted() -> (res: felt) {}
 
 // View functions
 //#########################################################################################
